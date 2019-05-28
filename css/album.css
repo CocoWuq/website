@@ -1,0 +1,82 @@
+.main{
+    width: 100%;
+    margin-top: 30px;
+    padding-left: 140px;
+}
+
+.article{
+    width: 33.3%;
+    float: left;
+}
+
+.item_image{
+    margin-bottom: 50px;
+}
+
+.box a{
+    margin-top:70px;
+    margin-left: 80px;
+}
+
+#pic1{
+    background: url("../images/IMG_20171002_182658.jpg");
+}
+
+#pic2{
+    background: url("../images/IMG_20171105_141644.jpg");
+}
+
+#pic3{
+    background: url("../images/IMG_20171118_201206.jpg");
+}
+
+#pic4{
+    background: url("../images/IMG_20171202_171453.jpg");
+}
+
+#pic5{
+    background: url("../images/IMG_20171215_132738.jpg");
+}
+
+#pic6{
+    background: url("../images/IMG_20180302_145307.jpg");
+}
+
+#pic7{
+    background: url("../images/IMG_20180316_095709.jpg");
+}
+
+#pic8{
+    background: url("../images/IMG_20180411_204011_1.jpg");
+}
+
+#pic9{
+    background: url("../images/IMG_20180628_154823.jpg");
+}
+
+#pic10{
+    background: url("../images/IMG_20181005_121746.jpg");
+}
+
+#pic11{
+    background: url("../images/IMG_20181110_075128.jpg");
+}
+
+#pic12{
+    background: url("../images/IMG_20190319_135127.jpg");
+}
+
+.au-text{
+    font-size: 12px;
+    color: darkslateblue;
+    margin-left: 90px;
+}
+
+.audio{
+    width: 250px;
+    height:40px;
+    background:url(../images/image3.jpg) no-repeat center bottom;
+    background-size:cover;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}

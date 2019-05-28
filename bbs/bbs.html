@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wuq的留言板</title>
+    <link rel="stylesheet" href="../css/index.css" type="text/css" media="all">
+    <link rel="stylesheet" href="../css/bbs.css" type="text/css" media="all">
+</head>
+<body>
+    <header id="head">
+        <div class="bar">
+            <ul>
+                <li>
+                    <strong class="W">W</strong>
+                    <strong class="u">uq'S</strong>
+                    <strong class="W">&nbspBLOG</strong>
+                </li>
+                <img class="img" src="../images/suzy.jpg">
+                <li id="index">
+                    <a href="../index.html">主页</a>
+                    <a href="../album/album.html">影像</a>
+                    <a href="../Hobbies/hobby.html">Hobbies</a>
+                    <a href="../resume/resume.html">简历</a>
+                    <a href="bbs.html">留言板</a>         
+                </li>               
+            </ul>
+        </div>
+    </header>
+    <div class="comments">
+        <span class="co-tit">留言板</span>
+        <div class="co-con">
+          <form action="" method="POST">
+            <div class="co-box">
+                <br>
+                <div class="wrapper">
+                <table class="survey">
+                    <tbody>
+                        <tr>
+                            <td >
+                                                                 
+                                    <textarea class="textarea"  id="option1011" rows="5" cols="40" onkeyup="checkconditions(this.value, this.name, this.type)">请写下你想对我说的话吧！</textarea>
+                                                             
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="submit">
+                        <tbody>
+                            <tr>
+                                <td class="button">
+                                    <button class="button" type="submit" onclick="javascript:document.limesurvey.move.value = 'movesubmit';" role="button" aria-disabled="false"> 
+                                         <span class="button">提交</span>
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                </table>
+            </div>
+            </div>
+          </form>
+        </div>
+        <div class="co-text">
+            <div class="text-detail">
+                <span class="name">King&nbsp;&nbsp;&nbsp;&nbsp;第2楼</span>
+                <p class="ttt">今天也要加油学习啊!!</p>
+                <p class="tim">2019/5/13&nbsp;&nbsp;16:43</p>
+            </div>
+            <div class="text-detail">
+                <span class="name">这里有只胖达猫&nbsp;&nbsp;&nbsp;&nbsp;第1楼</span>
+                <p class="ttt">嘿嘿踩踩，求回踩</p>
+                <p class="tim">2019/5/10&nbsp;&nbsp;11:27</p>
+            </div>
+        </div>
+    </div>
+    <aside class="aside" id="aside">
+            <img src="../images/logo.png" class="logo">
+            <strong class="BB">枯荣有数，得失难量</strong>
+            <div class="box2">
+                <p class="title2">
+                    最近文章:
+                </p>
+                <a class="aside-article" href="../article/article1.html">
+                    夏目友人帐——若不能为神仙，那就变成妖怪吧
+                </a><br>
+                <a class="aside-article" href="../article/article2.html">
+                    夏天到啦 @橘子汽水
+                </a>
+                <p class="wechat">
+                    wechat @蛋卷儿
+                </p>
+            </div>
+     </aside>
+     <footer class="foot">
+            <div class="cut">
+                <i class="con">&nbsp; &nbsp;&hearts; &infin;</i>
+            </div>
+            <div class="fbox">
+                <span class="copy">Copyright &copy; 2019 吴琼 All Rights Reserved.</span>
+            </div>
+     </footer>
+</body>
+</html>

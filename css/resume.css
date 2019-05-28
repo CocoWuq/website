@@ -1,0 +1,45 @@
+.resume{
+    border: 1px rgb(175, 136, 136) dashed;
+    color: #000;
+    border-collapse:collapse;
+    margin: auto;
+    top: 40px;
+    bottom: 40px;
+}
+
+td,th {
+    font-size: 16px;
+    border: 1px rgb(175, 136, 136) dashed;
+}
+
+td.td1{
+    width: 70px;
+    height: 33px;
+}
+
+td.td2{
+    width: 118px;
+    height: 33px;
+}
+
+td.picture{
+    width:154px;
+ 
+}
+
+.res{
+    height: 800px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    bottom: 400px;
+}
+
+.img-tit{
+    margin-left:260px;
+    margin-bottom: 30px;
+}
+
+.foot{
+    margin-top: 70px;
+}
